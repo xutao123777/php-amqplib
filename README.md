@@ -87,3 +87,6 @@ $nowait = false, $callback = null, $ticket = null, $arguments = array())
 消费者在声明过的信道(channel)中会一直存在, 直到客户端清除他们为止。
 
 
+其余待完善
+
+
