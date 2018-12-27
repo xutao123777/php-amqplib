@@ -14,9 +14,13 @@ php-amqplib
 
 在你的项目中添加一个 composer.json文件：
 {
+
 	 "require": {
+	 
 	  "php-amqplib/php-amqplib": "2.6.1"
+	  
 	 }
+	 
 }
 
 只要你已经安装Composer功能, 你可以运行以下：
