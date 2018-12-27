@@ -28,6 +28,8 @@ php-amqplib
 $ composer.phar install
 
 
+
+
 public function queue_declare($queue = '', $passive = false, $durable = false, $exclusive = false, $auto_delete = true, $nowait = false, 
 $arguments = array(), $ticket = null)
 
@@ -58,6 +60,8 @@ arguments: 参数类表
 ticket: 指派
 
 
+
+
 public function basic_publish($msg, $exchange = '', $routing_key = '', $mandatory = false, $immediate = false, $ticket = null)
 
 支持：完整
@@ -66,6 +70,8 @@ public function basic_publish($msg, $exchange = '', $routing_key = '', $mandator
 
 此方法用来发布单条消息到指定的交换机(exchange)。消息将会通过配置好的交换机根据既定规则路由给队列(queues), 之后, 
 如果存在事务处理(transaction), 并且事务已经被提交, 就会分发给活跃的消费者。
+
+
 
 
 
